@@ -1,0 +1,36 @@
+<html lang="es">
+    <head>
+        <title>El Restaurador</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Css/index.css" type="text/css">
+        <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="Jvscript/adivinanza.js"></script>
+    </head>
+    <body style="background-image: url(imagenes/fondo4.jpg); background-attachment: fixed; background-size: cover;">
+        <div class="barra">
+            <ul>
+                <li><a href="index.html" class="links">Inicio</a></li>
+                <li><a href="https://www.redalyc.org/pdf/3801/380135840004.pdf" target="_blank" class="links">La Mazorca</a></li>
+                <li><a href="index.html" class="links">Historia</a></li>
+                <li><a href="contacto.html" class="links">Contacto</a></li>
+                <li><a href="adivinanza.html" class="links">Adivinanza</a></li>
+            </ul>
+        </div>
+        <center>
+            <h1>Juan Manuel de Rosas es derrotado en la batalla de Caseros¿ En que año sucede?</h2>
+                <form action="#"> 
+                    <b><label>Respuesta:</label></b>
+                    <input style="width: 20%; height: 6%;" type="text" placeholder="Ingrese su respuesta" id="ingreso">
+                    <input style="height: 6%; background-color: whitesmoke;" type="button" value="Enviar" id="botonEnv" onclick="contenido(),contador();">
+                    <h2 class="negro" id="resultados">Aviso</h2>
+                    <h2 class="negro" id="intentos">Tienes 4 intentos</h2>
+                    <h2 class="pista1" id="pista1"></h>
+                    <h2 class="pista2" id="pista2"></h>
+                </form>
+        </center>            
+    </body>
+</html>
